@@ -9,6 +9,20 @@ body{
     height: 100vh;
 }
 
+.h-100-vh{
+    height: 100vh;
+}
+
+.rotated-left {
+    transform: rotate(5deg); /* Equal to rotateZ(45deg) */
+    background-color: pink;
+  }
+
+  .rotated-right {
+    transform: rotate(-5deg); /* Equal to rotateZ(45deg) */
+    background-color: pink;
+  }
+
 .header .cover-image{
     width: 500px;
 }
@@ -216,6 +230,11 @@ body{
         height: 375px;
     }
 
+    .flip-card-s2{
+        width: 500px;
+        height: 243px;
+    }
+
     .flip-card-left{
         left: 0px;
     }
@@ -263,4 +282,11 @@ body{
     position: relative;
     padding: 200px 120px 0px 120px ;
 }
-
+.frame{
+    width:500px;
+    border:20px solid white;
+    border-radius: 10px;
+}
+.frame img{
+    width:100%;
+}
