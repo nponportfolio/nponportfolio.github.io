@@ -224,8 +224,20 @@ body{
         position: relative;
     }
 
-    .up{
+    .up-1{
         top:-50px;
+        position: relative;
+    }
+    .up-2{
+        top:-100px;
+        position: relative;
+    }
+    .up-3{
+        top:-150px;
+        position: relative;
+    }
+    .up-4{
+        top:-200px;
         position: relative;
     }
 
