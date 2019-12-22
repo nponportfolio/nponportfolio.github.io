@@ -1,0 +1,254 @@
+*{
+    font-family: 'Sulphur Point', sans-serif;
+}
+body{
+    margin: 0;
+}
+.header{
+    background-color: #eeeeee;
+    height: 100vh;
+}
+
+.header .cover-image{
+    width: 500px;
+}
+
+.header .crop{
+    height: 458px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+}
+.header-title{
+    position: absolute;
+    left: 360px;
+    top:50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.title{
+    position: absolute;
+    left: 170px;
+    top:50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header .introduce{
+    position: absolute;
+    top: 40vh;
+    right: 300px;
+    width: 300px;
+}
+.header .introduce .greeting{
+    font-size: 1.2em;
+    
+    margin: 10px 0px;
+}
+.header .introduce .job{
+    font-size: 1.7em;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+
+.header .introduce button{
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 1px;
+    padding:10px;
+    color:white;
+    font-weight: bold;
+    background-color: #5868a2;
+}
+
+.profile-container{
+    height: 100vh;
+    position: relative;
+
+}
+.profile-container .profile{
+    padding: 20px;
+    width: 40vw;
+    background-color: rgb(67, 218, 218);
+    position: relative;
+    left:170px;
+    top:120px;
+    border-radius: 10px;
+}
+.profile-container .profile .group{
+    display: flex;
+}
+.profile-container .profile .group .profile-title{
+  font-weight: bold;
+  text-align: right;
+  width: 91px;
+}
+.profile-container .profile .group .profile-content{
+    margin-left: 10px;
+    width: 475px;
+  }
+
+.education-container,.page{
+    height: 100vh;
+    position: relative;
+
+}
+.education-container .education{
+    padding: 20px;
+    width: 40vw;
+    background-color: rgb(226, 154, 106);
+    position: relative;
+    left:600px;
+    top:120px;
+    border-radius: 10px;
+}
+.education-container .education .item{
+    margin: 10px 0px;
+    border-radius: 10px;
+    padding: 40px;
+    width: 250px;
+    color: white;
+}
+
+.education-container .education .item-1{
+    background:#847767;
+}
+
+.education-container .education .item-2{
+    background : #5c5582;
+}
+
+.education-container .education .item-3{
+    background: #4a886b;
+}
+.education-container .education .item .education-title{
+  font-weight: bold;
+  
+}
+.education-container .education .group .education-content{
+    margin-left: 10px;
+    width: 475px;
+  }
+  .bg-gray{
+      background-color: #fcfcfc
+  }
+  .bg-pink{
+    background-color: #a16492
+}
+
+.bg-blue{
+    background-color: #9385ac
+}
+.bg-whit{
+    background-color: white;
+}
+
+  .icon-container{
+      border-radius: 10px;
+      width: 75px;
+      height: 75px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+  }
+
+  .fas{
+      color:white;
+      font-size: 35px;
+  }
+
+  .bg-pink{
+      background: pink;
+  }
+
+  .bg-brown{
+    background: rgb(102, 86, 56);
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-front img {
+   width: 100%;
+  }
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+    .flip-card-s1{
+        width: 500px;
+        height: 375px;
+    }
+
+    .flip-card-left{
+        left: 0px;
+    }
+    .flip-card-right{
+        right: -580px;
+        position: relative;
+    }
+
+    .up{
+        top:-50px;
+        position: relative;
+    }
+
+
+  .bold{
+      font-weight: bold;
+  }
+
+  .activity .flip-card-container{
+      position: relative;
+      top:200px;
+  }
+
+  .page .page-container {
+      position: relative;
+      top:200px;
+      margin: 20px 120px;
+  }
+.outter-container {
+    position: relative;
+}
+  .inner-container {
+    position: relative;
+    padding: 200px 120px 0px 120px ;
+}
+
