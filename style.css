@@ -234,6 +234,12 @@ body{
         width: 500px;
         height: 243px;
     }
+   
+    .flip-card-s3{
+      width: 500px;
+      height: 361.08px;
+}
+
 
     .flip-card-left{
         left: 0px;
@@ -282,6 +288,10 @@ body{
     position: relative;
     padding: 200px 120px 0px 120px ;
 }
+
+
+
+
 .frame{
     width:500px;
     border:20px solid white;
